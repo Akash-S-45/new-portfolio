@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-500 font-sans">
+    <!-- Navbar -->
+    <header class="bg-blue-600 py-4">
+        <nav class="container mx-auto flex justify-between items-center text-white">
+            <h1 class="text-2xl font-semibold">My Portfolio</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#hero" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-gray-600 text-white text-center py-32">
+        <h2 class="text-4xl font-bold mb-4">Hello, I'm a Frontend Web Developer</h2>
+        <p class="text-xl mb-8">I create beautiful and responsive websites</p>
+        <a href="my_resume (1).pdf" class="bg-yellow-500 text-gray-800 py-2 px-4 rounded-full text-xl hover:bg-yellow-400 transition">Download Resume</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-600 bg-gray-200 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <div class="flex justify-center mb-6">
+                <img src="akash1.jpg" alt="Profile Picture" class="rounded-full w-40 h-40 object-cover">
+            </div>
+            <p class="text-lg max-w-2xl mx-auto">I'm a passionate frontend web developer who loves to build intuitive and user-friendly websites. Proficient in HTML, CSS, JavaScript, and modern frameworks like React.js and Angular.js. I am eager to contribute my skills and learn more in the field of web development.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-600 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6 text-white">Skills</h2>
+            <div class="grid grid-cols-3 gap-6">
+                <div class="bg-green-100 p-6 rounded shadow-lg">
+                    <h3 class="text-xl font-semibold">HTML</h3>
+                    <p>I have a strong foundation in building structured and semantic HTML5 webpages.</p>
+                </div>
+                <div class="bg-green-100 p-6 rounded shadow-lg">
+                    <h3 class="text-xl font-semibold">CSS</h3>
+                    <p>Skilled in using CSS3 for creating beautiful and responsive designs with Flexbox and Grid.</p>
+                </div>
+                <div class="bg-green-100 p-6 rounded shadow-lg">
+                    <h3 class="text-xl font-semibold">JavaScript</h3>
+                    <p>Experienced in using JavaScript to create interactive web pages, solving problems dynamically.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-600">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6 text-white">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-green-100 p-6 rounded shadow-lg">
+                    <img src="https://akashs-4517.neocities.org/Event/img/event1.png" alt="Project 1" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold">Project 1</h3>
+                    <p class="mt-2">Description of project 1, A Musical event website built with HTML5 and CSS3.</p>
+                </div>
+                <div class="bg-green-100 p-6 rounded shadow-lg">
+                    <img src="https://neocities.org/site_screenshots/25/10/akashs-4517/perfumy/index.html.540x405.webp" alt="Project 2" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold">Project 2</h3>
+                    <p class="mt-2">A responsive Perfume page I created for a client using CSS Grid and Flexbox.</p>
+                </div>
+                <div class="bg-green-100 p-6 rounded shadow-lg">
+                    <img src="shop login.jpeg" alt="Project 3" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold">Project 3</h3>
+                    <p class="mt-2">A Shop Login website for tracking user interfaces adding with shopping cards, built using HTML5,CSS3 and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-600 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+            <p class="text-lg mb-8">Feel free to reach out for any web development projects or opportunities!</p>
+            <div class="text-lg">
+                <p>Email: <a href="mailto:akash4517999@gmail.com" class="text-yellow-300">akash4517999@gmail.com</a></p>
+                <p>Phone: <a href="tel:+91 8754933863" class="text-yellow-300">+91 8754933863</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 py-6 text-white text-center">
+        <div class="container mx-auto">
+            <div class="flex justify-center space-x-6 mb-4">
+                <!-- Social Media Links -->
+                <a href="https://www.linkedin.com/in/akashs45/" target="_blank" class="hover:text-gray-300">
+                    <i class="fab fa-linkedin-in text-xl"></i>
+                </a>
+                <a href="https://github.com/45Hitman17" target="_blank" class="hover:text-gray-300">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://www.instagram.com/mr_45_luvr/" target="_blank" class="hover:text-gray-300">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+                
+            </div>
+            <p>&copy; 2025 My Portfolio. Designed with <span class="text-red-500">❤️</span> by Me</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
